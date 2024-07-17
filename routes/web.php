@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [GuestPageController::class, 'index']);
+Route::get('/', [GuestPageController::class, 'index'])->name("guest.home");
